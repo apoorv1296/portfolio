@@ -1,0 +1,370 @@
+.resume-page{
+    width: 100%;
+    height: auto;
+    background-color:#d9d2e9;
+    /* background-color:#8eaee5; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-page-block-info{
+    background-image: url(/public/computer-keyboards-wallpaper-491018dd61eacd3b3637888f9081b67d.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: ubuntu;
+}
+
+.block1-color-tant{
+    position: absolute; 
+    background-color: #8eaee5;
+    width: 100%;
+    height: 92vh;
+    opacity: .5;
+    top: 60px;
+}
+
+.resume-page-block-info>h1{
+    margin-top: 15px;
+    font-size: 3rem;
+}
+
+.block1-dash{
+    background-color: #3738a5;
+    width: 5%;
+    height: 5px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.career-obj{
+    width: 60%;
+}
+
+.career-obj>h3{
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.career-obj>p{
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.resume-page-block-skills{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+.resume-heading{
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: white solid 3px;
+    border-bottom: white solid 3px;
+     color: #504b78; 
+
+}
+    .skill-list{
+        font-size: larger;
+        letter-spacing: 1px;
+        display: flex;
+        width: 60%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 80px 0px;
+    }
+
+.skill-list>li{
+    background-color: #504b78;
+    color: white;
+    height: 80px;
+    width: 400px;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    border-radius: 4px;
+}
+
+.soft-skill-list{
+    font-size: larger;
+    letter-spacing: 1px;
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0px;
+
+}
+
+.soft-skill-list>li{
+    border: solid 2px #504b78;  
+    height: 80px;
+    width: 400px;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    border-radius: 4px;
+}
+
+.resume-project-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-cards{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+}
+
+.resume-project-info{
+    width:300px;
+    height:300px;
+    background-color:#504b78;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.card-project-img1{
+    background-image: url(/public/wheather_forcaste.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+.card-project-img2{
+    background-image: url(/public/4373222_imdb_logo_logos_icon.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.card-project-img3{
+    background-image: url(/public/900px-Facebook_logo.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.academics-block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.academics-info-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 70%;
+    margin: 80px 0px;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: #504b78;
+    color: white;
+}
+
+.academics-info{
+    /* width: 450px; */
+    margin-right: 10px;
+
+}
+
+.experience-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-block-inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.intern-info-block{
+    width: 30%;
+}
+
+.exp-info{
+    width: 45%;
+}
+
+.exp-sub-heading{
+    font-family: ubuntu;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+.exp-info>h5{
+    
+    font-family: ubuntu;
+    font-size: 15px;
+    color: #504b78;
+    font-weight: bolder;
+
+}
+
+.exp-project-info{
+    margin-top: 30px;
+}
+
+.exp-project-info>h3{
+    font-family: ubuntu;
+}
+
+
+
+.personal-info-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-info-block-inner{
+    /* background-color: red; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.certification-in{
+    /* background-color: blue; */
+    margin: 15px ;
+    /* margin-left: 15px ; */
+}
+
+.other-details-list>li{
+margin-top: 10px;
+}
+
+.personal-info-inner{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal-info-inner>h4{
+    margin-top: 20px;
+}
+
+.declaration-para{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    /* Styles for mobile screens */
+
+.resume-page-block-info>h1{
+font-size: 2rem;
+}
+    
+.skill-list>li, .soft-skill-list>li{
+    margin-right: 0px;
+    text-align: center;
+}
+    
+.project-cards{
+    flex-direction: column;
+    align-items: center;
+        }   
+
+.academics-info-block{
+    flex-wrap: wrap;
+}
+
+.academics-info{
+    margin: 20px 0px ;
+}
+
+
+
+.personal-info-block-inner{
+    flex-wrap: wrap;
+}
+
+.certification-in, .area-of-interest, .personal-info-inner{
+    margin-top : 10px;
+    width: 80%;
+}
+}
+    @media (min-width: 481px) and (max-width: 768px) {
+        /* screen for iPads, */
+
+.skill-list>li, .soft-skill-list>li{
+    margin-right: 0px;
+}
+    
+.project-cards{
+    flex-direction: column;
+    align-items: center;
+        }
+
+
+.personal-info-block-inner{
+    flex-wrap: wrap;
+}
+
+.personal-info-inner{
+    margin-left : .1rem;
+    width: 80%;
+}
+    }

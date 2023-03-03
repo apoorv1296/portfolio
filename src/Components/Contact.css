@@ -1,0 +1,235 @@
+.main-contact-page{
+    width: 100%;
+    height: 92vh;
+    background-color: 	#3738a5;
+    color: white;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-details{
+    background-color: white;
+    color: 	#3738a5;
+    border-radius: 4px;
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.left-side-contact{
+    width: 40%;
+    /* height: 100%; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px ;
+}
+
+.left-side-contact>h1{
+    font-family: ubuntu;
+     font-size: 5vh;
+     letter-spacing: 1.5px;
+}
+
+.left-side-contact>h2{
+    margin-top: 25px;
+}
+
+.left-side-contact>h3{
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.right-side-form{
+    /* background-color: red; */
+    margin-top: -10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.input-full-name{
+    display: flex;
+}
+
+ .input-first-name{
+     margin-right: 25px; 
+    
+}
+
+label{
+    /* background-color: red; */
+    display: block;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+input{
+    display: block;
+    background-color: #8eaee5;
+    height: 40px;
+    width: 100%; 
+    /* margin: 10px 0px; */
+    font-size: 15px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+textarea{
+    background-color: #8eaee5;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+#submit-btn{
+    font-family: ubuntu;
+    display: block;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 10px;
+    background-color: #d9d2e9;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px #888;
+
+}
+
+#submit-btn:hover {
+    background-color: #3738a5;
+    color: #d9d2e9;
+    border: none;
+    cursor: pointer;
+  }
+
+  #submit-btn:active {
+        box-shadow: none;
+  }
+
+.error-msg{
+    display: inline-block;
+    color: red;
+    letter-spacing: .5px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.msg-input{
+    display: flex;
+    flex-direction: column;
+    width: 102%;
+}
+
+  /* .pop-window{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(4px); }  */
+
+
+    .blur-display{
+        width: 100%;
+        height: 100vh;
+        background-color:#3738a5;
+        position: absolute;
+        top:0;
+        z-index: 8;
+        opacity: .6;
+        filter: blur(15px);
+        
+
+    }
+
+
+.display-filled-details{
+    padding: 20px;
+    height: 200px;
+    width: 30%;
+    position: absolute;
+    top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: ubuntu;
+    background-color: rgb(53, 53, 70);
+   color: white;
+   z-index: 9;
+
+}
+
+.confirm-details-btn{
+    display: flex;
+    width: 80%;
+}
+
+.confirm-details-btn > button{
+    margin: 20px;
+    margin-bottom: 0px;
+    width: 50%;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    font-family: ubuntu;
+    /* font-size: 5vh; */
+    letter-spacing: 1px;
+}
+
+#cnfrm-btn:hover{
+    background-color: rgb(29, 123, 29);
+   color: white;
+}
+
+#cncle-btn:hover{
+    background-color: rgb(162, 41, 41);
+    color: white;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    /* screen for iPads, */
+
+    .contact-details{
+        flex-direction: column;
+        width: auto;
+        /* align-items: center; */
+    }
+
+    .main-contact-page{
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    .right-side-form{
+        /* background-color: red; */
+        margin: 10px 0px;
+    }
+
+    .left-side-contact{
+        width: 100%;
+    }
+}

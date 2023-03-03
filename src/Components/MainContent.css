@@ -1,0 +1,261 @@
+.Main_Content{
+    display: flex;
+}
+
+.left_side{
+    position: absolute;
+    background-color: #3738a5 ;         
+    width: 40vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.right_side{
+    position: absolute;
+    left: 40%;
+    background-color: #8eaee5	;
+    width: 60vw;
+    height: 100vh;
+    z-index: -1;
+
+}
+
+.center-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100vw;
+    height: 90vh;
+}
+
+.photo_block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e9e3d2;
+    width: 320px;
+    height: 60vh;
+    border-radius: 5px;
+    box-shadow: -2px 2px 10px #8eaee5;
+}
+
+.photo{
+    background-image: url(/public/IMG_20201107_210839_011.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.name_below_photo{
+    font-family: kanit;
+    letter-spacing: 2px;
+    font-size: 3.5vh;
+    font-weight : bolder;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+
+.sname {
+    margin-top : -12px ;
+}
+
+.dash{
+    background-color: #3738a5;
+    width: 15%;
+    height: 2px;
+    margin: auto;
+}
+.title_below_photo{
+    display: inline-block;
+    font-family: orbitron;
+    letter-spacing: 3px;
+    font-size: larger;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+.details_block{
+    width: 350px;
+    height: 60vh;
+}
+
+.hello{
+    font-family: ubuntu;
+    font-size: 10vh;
+    display: block;
+    margin: 20px 30px;
+}
+
+.info{
+    font-family: ptserif;
+    display:block;
+    font-size: 3vh;
+    margin-left: 30px;
+}
+
+.btn{
+    font-family: ubuntu;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+#resume{
+background-color: #3738a5;
+border: none;
+transition: background-color 0.3s ease-in-out;
+}
+
+#resume > a{
+    font-family: ubuntu;
+    color: #d9d2e9;
+    }
+
+#resume:hover {
+    background-color: #d9d2e9;
+    cursor: pointer;
+  }
+
+  #resume:hover >a {
+    color: black;
+    cursor: pointer;
+  }
+
+#project{
+margin-left: -20px;
+background-color: #d9d2e9;
+transition: background-color 0.3s ease-in-out;
+border: none;
+}
+
+#project > a{
+    font-family: ubuntu;
+    color: black;
+    }
+
+#project:hover {
+    background-color: #3738a5;
+    color:  #d9d2e9;
+    border: none;
+    cursor: pointer;
+  }
+
+  #project:hover > a{
+    font-family: ubuntu;
+    color: #d9d2e9;
+    }
+
+.btn:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+
+.brief{
+    font-family: ptserif;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+  
+  @media (min-width: 320px) and (max-width: 480px){
+    /* Styles for mobile screens */
+
+    .left_side{
+        display: none;
+    }   
+
+    .right_side{
+        display: none;       
+    }
+
+    .center-content{
+        flex-direction: column;
+        background-color: #8eaee5;
+        height: auto;
+        padding: 30px 0px;
+    }
+
+    .photo_block{
+    }
+
+    .title_below_photo{
+        margin-top: 20px;
+    }
+
+    .details_block{
+    width: 80vw ;
+    height: auto;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* screen for iPads, */
+
+    .left_side{
+        display: none;
+    }   
+
+    .right_side{
+        display: none;       
+    }
+
+    .center-content{
+        flex-direction: column;
+        background-color: #8eaee5;
+        height: auto;
+        padding: 30px 0px;
+    }
+
+    .photo_block{
+    }
+
+    .title_below_photo{
+        margin-top: 20px;
+    }
+
+    .details_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw ;
+    height: auto;
+    margin-top: 15px;
+    }
+
+    .hello, .info, .btn {
+        display: flex;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+#project, #resume{
+    margin: 10px 0px;
+    margin-left: 28vw;
+}
+
+  }
+
+
+  /* 320px — 480px: Mobile devices.
+    481px — 768px: iPads,
+   Tablets. 769px — 1024px: Small screens, 
+   laptops. 1025px — 1200px:
+   Desktops, large screens */
+
+   
+   @media (min-width: 769px) and (max-width: 1024px) {
+     /* Styles for tablet */
+
+    }
+
+  
